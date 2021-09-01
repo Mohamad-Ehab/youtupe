@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #181818;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+@media (min-width:300px) {
+    .container{ 
+        width:280px;
+    }
+}
+
+@media (min-width:500px) {
+    .container{ 
+        width: 480px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .container{ 
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container{ 
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{ 
+        width: 1510px;
+    }
+}
+
+
+.container{
+    margin: auto;
+}
+
+
+/**************************************************************************************/
+.divs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+}
+
+.account{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+i{
+    font-size: 20px;
+    margin:  0  15px;
+    color: #c6c6c6;
+}
+
+.lll{
+  margin: 5px 20px ;
+}
+
+nav{
+    padding: 1px  2%;
+    background-color: #1d1c1c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: static;
+
+}
+
+
+.text{
+width: 570px;
+height: 28px;
+border: none;
+border: 1px solid rgb(55, 57, 58);
+border-radius: 2px;
+background-color: #121212;
+padding-left: 15px;
+font-size: 15px;
+color: #fff;
+}
+
+
+.middle i{
+font-size: 18px;
+background-color:#313131;
+padding: 5px 30px;
+margin-left: 1px;
+color: #727272;
+border-radius: 2px;
+}
+
+/****************************** slide  ***********************************/
+
+.slide-bar{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    
+}
+
+
+
+.address{
+    display: flex;
+   
+    align-items: center;
+    padding:15px;
+       }
+
+.address:hover{
+    background-color: #383838;
+}
+
+.address i{
+    font-size: 20px;
+    color: rgb(201, 186, 186);
+    margin-right: 28px;
+    align-items: center;
+}
+
+.address h2{
+    text-transform:capitalize;
+    color: rgb(201, 186, 186);
+    font-size: 15px;
+    
+}
+
+.line{
+  border: none;
+  border-bottom: 0.7px solid rgb(68, 66, 66);
+   
+}
+
+.sub{
+    color: rgb(145, 142, 142);
+    font-size: 17px;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+.node{
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+
+
+/************************************ videos   ***********************************/
+
+.videos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:#0a0a0a;
+}
+
+
+.images{
+    width: 295px;
+  height: 162px;
+  background-image: url("img/gallery-img-01.jpg");
+    background-size: cover;
+    background-position: center  -52px;
+    margin: 20px 0 0 20px;
+}
+
+
+
+.img-1{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-02.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-2{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-03.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-3{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-05.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-4{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-04.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-5{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-06.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-6{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/infinite-loop-01.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-7{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/infinite-loop-02.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-7{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/infinite-loop-03.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+.img-8{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-03.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+
+.img-9{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/gallery-img-05.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.img-10{
+    width: 295px;
+    height: 162px;
+    background-image: url("img/infinite-loop-02.jpg");
+      background-size: cover;
+      background-position: center  -52px;
+      margin: 20px 0 0 20px;
+}
+
+.images p{
+    color: #fff;
+    width: 41px;
+    height: 21px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #383838;
+    margin: 140px 0 0 251px;
+}
+
+.images h4{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.images h6{
+    color: rgb(160, 157, 157);
+    margin-top: 20px;
+    font-size: 10px;
+}
